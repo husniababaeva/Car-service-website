@@ -1,0 +1,101 @@
+.raleway{font-family: 'Raleway', sans-serif;}
+.opensans{font-family: 'Open Sans', sans-serif;}
+.bg-grey{background-color: #202020;}
+.bg-light-grey{background-color: #f0f0f0;}
+.bg-black{background-color: #171717 ;}
+.bg-image{
+    background:url(../img/Layer\ 11.png) no-repeat left center;
+    background-size: 50px;
+    position:relative;
+    left: -13px;
+    
+}
+.bg-qa{
+    background:url(../img/Q\ A.png) no-repeat left center;
+    background-size: 45px;
+   
+}
+.justify-content-between{justify-content: space-between !important;}
+.btn-lg{
+	width: 264px;
+	height: 54px;
+	border: 2px solid #ffffff;
+}
+.w-30{width: 30%;}
+.w-100{width: 100%;}
+.w-15{width: 15px;}
+.h-80{height: 80px;}
+.h-15{height: 15px;}
+.fs-lg-30{font-size: 30px;}
+.fs-lg-40{font-size: 40px;}
+.fs-lg-22{font-size: 22px;}
+.fs-lg-44{font-size: 44px;}
+.fs-lg-20{font-size: 20px;}
+.fs-lg-26{font-size: 26px;}
+.fs-lg-28{font-size: 28px;}
+.fs-lg-60{font-size: 60px;}
+.fs-lg-106{font-size: 106px;}
+.fs-lg-35{font-size: 35px;}
+.fs-lg-38{font-size: 38px;}
+.fs-lg-18{font-size: 18px;}
+.fs-lg-14{font-size: 14px;}
+.fs-lg-72{font-size: 72px;}
+.ps-rel2{
+    position: relative;
+    top: -71px;
+}
+.ps-rel3{
+    position: relative;
+    bottom: 119px;
+}
+.ps-rel4{
+
+    position: relative;
+    bottom: 131px;
+}
+input{
+    outline: 0;
+    background: white;
+    margin: 0 0 15px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    appearance: none;
+    font-size: 14px;
+}
+.bg-box{
+    background-color: #202020;
+}
+.bg-box:hover{
+    background-color: #E5C200;
+}
+.btn-padding{
+    padding: 25px 90px;
+}
+@media (max-width: 992px) { 
+    .rotate-90{ transform: rotate(90deg);}
+    .absolute{
+        position: absolute;
+        bottom: 48px;
+        left: 330px;
+    } 
+    .relative-btn{
+        position: relative;
+        top: 19px;
+        left: 39px;
+    }
+    .justify-content-md-center{justify-content: center;}
+    .fs-md-15{font-size: 15px;}
+    .fs-md-35{font-size: 35px;}
+
+    .d-md-block{display: block;}
+    .w-md-100{width: 100%;}
+}
+@media (max-width: 1200px) { 
+    .fs-md-35{font-size: 35px;}
+    
+
+}
+@media (max-width: 768px) { 
+    .relative
+ }
